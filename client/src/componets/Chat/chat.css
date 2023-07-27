@@ -1,0 +1,100 @@
+#main {
+    margin: 0 auto ;
+    max-width: 800px;
+    padding: 0 20px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 5% ;
+  }
+  .chat-container{
+    border: 1px solid #ccc;
+    background-color: #827f7f;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 10px;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5%;
+     /* overflow-y: scroll; */
+    /* overflow-x: hidden !important; */
+    margin: auto;
+
+
+  }
+    /* .chat-container::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    } */
+  
+
+  #submit{
+     margin-top: 5%;
+     padding-left: 4%;
+     padding-right: 4%;
+  }
+ 
+    #submit > input{
+        width: 80%;
+        /* height: 100%; */
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 10px;
+        /* margin-left: -8%; */
+    }
+    #submit > button{
+        width: 15%;
+        height: 100%;
+        border: none;
+        background-color: coral;
+        color: rgb(88, 58, 58);
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 10px; 
+        margin: 0;
+        margin-right: 0%;
+        margin-left: 2%;
+        cursor: pointer;
+
+    }
+    .chatBox{
+
+      height: 99.5%;
+      box-sizing: border-box;
+      
+     }
+
+     ::-webkit-scrollbar {
+      /* width: 10px;
+      height: 5px; */
+      width: 20px;
+    }
+    ::-webkit-scrollbar-track {
+      /* box-shadow: inset 0 0 10px #aaa;
+      border-radius: 50px; */
+      background-color: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      /* background: #888;
+      border-radius: 50px; */
+      background-color: #d6dee1;
+      border-radius: 20px;
+      border: 6px solid transparent;
+      background-clip: content-box;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      /* background: #555; */
+      background-color: #a8bbbf;
+    }
+
+/* .react-scroll-to-bottom--css-nhtde-1n7m0yu {
+
+
+  } */
+  /* .react-scroll-to-bottom--css-nhtde-1n7m0yu::-webkit-scrollbar {
+    display: none !important;
+  }
+  .chatBox::-webkit-scrollbar {
+    display: none !important;
+  } */
